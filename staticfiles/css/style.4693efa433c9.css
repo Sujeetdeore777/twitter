@@ -1,0 +1,123 @@
+/*
+Common
+*********************/
+
+.content  { 
+max-width: 600px;
+height: 100%;
+margin: auto;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc;
+}
+
+
+/*
+Post
+*********************/
+.post_form{
+    border-bottom: 1px solid #ccc
+}
+
+.post_form input {
+    width :70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc
+}
+.posts ul{
+    padding:0;
+}
+
+.posts li .menu_icon{
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.posts li .menu{
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.post li .menu a{
+    text-decoration: none;
+}
+
+.post{
+    width:27%;
+}
+
+.post_form textarea{
+    width: 55%;
+    padding: 46px;
+    border: 1px solid #ccc;
+}
+
+.posts li{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 17px;
+    position:relative;
+}
+
+.posts li .logo{
+    flex-basis: 15%;
+}
+.posts li .logo img{
+    width: 60%;
+}
+
+.posts li .name_body{
+    flex-basis:85%;
+}
+
+.posts li .name_body .name{
+    font-weight: bold;
+}
+.posts li .name_body .datetime{
+    color:darkgray
+}
+
+@media screen  and (max-width: 500px) {
+    .posts li .name_body .name{
+    font-size: 40px
+    }
+    
+}
+
+#like-img{
+    width: 100%;
+
+}
+a {
+    text-decoration: none;
+}
+.total-like{
+    justify-content: space-between;
+    width: 8%;
+    display: flex;
+    align-items: center;
+}
+#tweet{
+    background-color: blue;
+}
+
+
+img.logo {
+    width: 22%;
+}
+.main-header{
+    display: flex;
+}
+.input{
+    padding:20px;
+}
+
