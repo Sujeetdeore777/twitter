@@ -1,2 +1,2 @@
 # twitter
-https://twitter.sujeetdeore777.repl.co/
+https://twitter-1.sujeetdeore777.repl.co/
